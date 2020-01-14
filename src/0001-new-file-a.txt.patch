@@ -1,0 +1,46 @@
+From f0c974131291875e19f7c4f488b9ca80100abca1 Mon Sep 17 00:00:00 2001
+From: huyIttos2 <huyittos2071195@gmail.com>
+Date: Tue, 14 Jan 2020 00:38:41 -0800
+Subject: [PATCH] new file a.txt
+
+---
+ src/0001-modified-directorystructure.patch | 22 ++++++++++++++++++++++
+ src/a.txt                                  |  0
+ 2 files changed, 22 insertions(+)
+ create mode 100644 src/0001-modified-directorystructure.patch
+ create mode 100644 src/a.txt
+
+diff --git a/src/0001-modified-directorystructure.patch b/src/0001-modified-directorystructure.patch
+new file mode 100644
+index 0000000..eefb2e9
+--- /dev/null
++++ b/src/0001-modified-directorystructure.patch
+@@ -0,0 +1,22 @@
++From 6569c555ef6b936e96b454b4e9363804d324586b Mon Sep 17 00:00:00 2001
++From: huyIttos2 <huyittos2071195@gmail.com>
++Date: Mon, 13 Jan 2020 23:32:56 -0800
++Subject: [PATCH] modified directorystructure
++
++---
++ src/info.php | 2 +-
++ 1 file changed, 1 insertion(+), 1 deletion(-)
++
++diff --git a/src/info.php b/src/info.php
++index a428e10..b610f7a 100644
++--- a/src/info.php
+++++ b/src/info.php
++@@ -1,4 +1,4 @@
++-
+++hello jerry
++ #include <stdio.h>
++ +size_t my_strlen(char *s)
++ {
++-- 
++2.17.1
++
+diff --git a/src/a.txt b/src/a.txt
+new file mode 100644
+index 0000000..e69de29
+-- 
+2.17.1
+
